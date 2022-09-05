@@ -4,7 +4,7 @@ import App from './App.vue'
 import router from '../router'
 import store from './store'
 
-import { Button, Container, Aside, Header, Main, Menu, Submenu, MenuItemGroup, MenuItem, Dropdown, DropdownMenu, DropdownItem, Row, Card, Col} from 'element-ui';
+import { Button, Container, Aside, Header, Main, Menu, Submenu, MenuItemGroup, MenuItem, Dropdown, DropdownMenu, DropdownItem, Row, Card, Col, Table, TableColumn} from 'element-ui';
 
 import './assets/less/index.less'
 
@@ -25,6 +25,8 @@ Vue.use(DropdownItem)
 Vue.use(Row)
 Vue.use(Col)
 Vue.use(Card)
+Vue.use(Table)
+Vue.use(TableColumn)
 
 new Vue({
   render: h => h(App),
