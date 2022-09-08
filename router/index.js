@@ -17,9 +17,24 @@ const routes = [
             },
             {
                 path: '/user',
-                name: 'User',
+                name: 'user',
                 component: () => import('../views/User')
-            }
+            },
+            {
+                path: '/mall',
+                name: 'mall',
+                component: () => import('../views/Mall')
+            },
+            {
+                path: '/page1',
+                name: 'page1',
+                component: () => import('../views/Other/Page1')
+            },
+            {
+                path: '/page2',
+                name: 'page2',
+                component: () => import('../views/Other/Page2')
+            },
         ]
     }
 

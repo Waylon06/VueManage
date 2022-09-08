@@ -6,7 +6,7 @@ import store from './store'
 import http from 'axios'
 import '../api/mock.js'
 
-import { Button, Container, Aside, Header, Main, Menu, Submenu, MenuItemGroup, MenuItem, Dropdown, DropdownMenu, DropdownItem, Row, Card, Col, Table, TableColumn} from 'element-ui';
+import { Button, Container, Aside, Header, Main, Menu, Submenu, MenuItemGroup, MenuItem, Dropdown, DropdownMenu, DropdownItem, Row, Card, Col, Table, TableColumn, Breadcrumb, BreadcrumbItem, Tag} from 'element-ui';
 
 import './assets/less/index.less'
 
@@ -29,6 +29,9 @@ Vue.use(Col)
 Vue.use(Card)
 Vue.use(Table)
 Vue.use(TableColumn)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Tag)
 
 
 Vue.prototype.$http = http
